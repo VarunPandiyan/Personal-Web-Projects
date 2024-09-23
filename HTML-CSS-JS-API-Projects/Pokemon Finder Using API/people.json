@@ -1,0 +1,22 @@
+[
+    {
+     "name":"varun",
+     "age":22,
+     "place":"madurai",
+     "programmingLanguages":["HTML","CSS","JS"]
+    },
+
+    {
+  "name":"pandiya",
+  "age":22,
+  "place":"madurai",
+  "programmingLanguages":["HTML","CSS","PHP"]
+    },
+
+    {
+        "name":"karthi",
+        "age":22,
+        "place":"madurai",
+        "programmingLanguages":["HTML","CSS","PYTHON"]
+    }
+]

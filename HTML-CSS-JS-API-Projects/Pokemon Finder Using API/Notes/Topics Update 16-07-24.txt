@@ -1,0 +1,51 @@
+Today's Topic
+1.print,alert,comment
+2.Variable - let
+3.Arthimetic Operator
+4.User Input
+
+Day-1 (code)
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id = "myH1"></h1>
+    <label for="input">UserName : </label>
+    <input type="text" id ="myInput" name="input" autocomplete="off"><br><br>
+    <button id = "mySubmit">Submit</button>
+    <script src="index.js"></script>
+</body>
+</html>
+style.css
+#myH1
+{
+    font-variant: small-caps;
+    font-size: 2em;
+    
+}
+index.js
+// console.log("hi i am varun");
+// console.log("333333");
+
+// window.alert("Hi buddy");
+// window.alert("keep Going....");
+
+//user-input
+// let userName;
+// userName = window.prompt("Enter your name");
+// console.log(userName);
+
+//user-input through html
+// let userName;
+// document.getElementById("mySubmit").onclick = function()
+// {
+//    userName = document.getElementById("myInput").value;
+   
+//    document.getElementById("myH1").textContent = `MR. ${userName}`;
+// }
