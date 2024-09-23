@@ -1,0 +1,179 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/*section 1*/
+body
+{
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+.nav img
+{
+    width:250px;
+    height: 100px;
+    position: relative;
+    left: 60px;
+    cursor: pointer;
+}
+.nav a
+{
+    text-decoration:none;
+    color:black;
+    position: relative;
+    top: 50px;
+    left: 300px;
+    padding-left:40px;
+    
+}
+.nav a:hover
+{
+    color: saddlebrown;
+}
+.navigation
+{
+    display: flex;
+    width: 100vw;
+    background-color: white;
+}
+
+.form
+{
+    text-align: center;
+    margin-left: 27%;
+    margin-top: 50px;
+    border:none;
+    width:650px ;
+    height: 72vh;
+    background-color:white;
+    
+    
+}
+.formp
+{
+    font-size: small;
+    opacity: 0.75;
+    padding-top: 80px;
+}
+.formh1
+{
+    font-size: 2.5em;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    font-weight: 100;
+}
+.email
+{
+    font-size: small;
+    padding: 7px 55px;
+    opacity:0.75;
+}
+.submit
+{
+    margin-top: 20px;
+    padding: 15px 25px;
+    color: white;
+    background-color:saddlebrown;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* section 2 */
+/* .page2
+{
+    background-color:lavender;
+} */
+.s2p
+{
+   text-align: center;
+   padding-top: 100px;
+   margin-top: 50px;
+   background-color: lavender;
+}
+.flexContainer
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  background-color: lavender;
+  width:100vw;
+  
+}
+.box
+{
+    height: 170px;
+    width: 230px;
+    background-color: white;
+    border:none;
+    box-shadow: 1px 2px 3px;
+    
+}
+.box-1 img
+{
+    height: 170px;
+    width: 230px; 
+}
+.box-2 img
+{
+    margin-top:33px;
+    height: 100px;
+    width: 230px; 
+}
+.box-3 img
+{   margin-top:55px;
+    margin-left: 25px;
+    height: 60px;
+    width: 180px; 
+}
+.box-4 img
+{
+    height: 170px;
+    width: 230px; 
+}
+.box-5 img
+{
+    margin-top: 30px;
+    height: 100px;
+    width: 230px; 
+}
+
+/* section 3 */
+
+.s3p
+{
+    text-align: center;
+    padding-top: 130px;
+    background-color: lavender;
+}
+
+.outdiv
+{
+    display:flex;
+    background-color: lavender;
+    text-align: center;
+}
+.div-1 img
+{
+    height:200px;
+    width: 200px;
+}
+.div-2 img
+{
+    height:200px;
+    width: 200px;
+}
+.div-3 img
+{
+    height:200px;
+    width: 200px;
+}
+

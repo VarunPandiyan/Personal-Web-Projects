@@ -1,0 +1,62 @@
+body
+{
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+form
+{
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 160px;
+    border:none;
+    width:450px ;
+    height: 50vh;
+    box-shadow: 5px 5px 20px;
+    
+}
+h1
+{
+    padding-top: 30px;
+    color: white;
+}
+input
+{
+    margin:10px;
+    width:250px;
+    font-size: 1em;
+    padding: 5px 10px;
+
+}
+
+a{
+   margin:70px;
+   color: aquamarine;    
+}
+a:hover
+{
+  color: white;
+}
+button
+{
+  margin-top: 20px;
+  font-size: 1em;
+  padding: 6px 35px;
+  border-radius: 15px;
+  border: none;
+  background-color: #696969;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:active
+{
+    background-color: #aaa;
+}
+button:hover
+{
+    color:steelblue;
+    background-color: lightsteelblue;
+}
