@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="myH1">Rock - Paper - Scissor</h1>
+    <div class="choices">
+    <button onclick="displayChoices('rock')">👊</button>
+    <button onclick="displayChoices('paper')">✋</button>
+    <button onclick="displayChoices('scissor')">✌</button>
+</div>
+<div class="display">
+     <h3 id="playerDisplay">PLAYER:</h3>
+     <h3 id="computerDisplay">COMPUTER:</h3>
+     <h1 id="resultDisplay"></h1>
+</div>
+
+<div class="scores">
+    <h3 id="playerScore">PLAYER SCORE : <span id="playerScore1">0</span></h3>
+    <h3 id="computerScore">COMPUTER SCORE : <span  id="computerScore1">0</span></h3>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

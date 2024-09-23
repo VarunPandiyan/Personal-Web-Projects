@@ -1,0 +1,31 @@
+body
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+#myH1
+{
+    font-size: 3rem;
+}
+.choices button
+{
+    font-size: 7rem;
+    margin: 0 8px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+#result
+{
+    font-size: 2.5rem;
+}
+.greenText, #playerScore1
+{
+    color:green;
+}
+.redText, #computerScore1
+{
+    color:red;
+}

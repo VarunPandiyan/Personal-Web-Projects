@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="expenseTracker">
+            <h1>Expense-Tracker-App</h1>
+          <header class="functionalDisplay">
+            
+            <div class="income">
+                <p>Income:😁</p>
+                <p id="income">&#8377 0.00</p>
+            </div>
+            <div class="expense">
+                <p>Expense:😒</p>
+                <p id="expense">&#8377 0.00</p>
+            </div>
+            <div class="balance">
+                <p>Balance:😅</p>
+                <p id="balance">&#8377 0.00</p>
+            </div> 
+             
+        </header>
+    
+        <div class="add">
+            <label for="name">Transcation Name:</label>
+            <input type="text" id="name" placeholder="Enter Transcation Name"> <br>
+    
+            <label for="amount">Transcation Amount:</label>
+            <input type="number" id="amount" placeholder="Enter Transcation Amount"> <br>
+    
+            <label for="type">Transcation Type:</label>
+            <select id="type">
+                <option value="default">Choose Transcation Type</option>
+                <option value="Income">Income</option>
+                <option value="Expense">Expense</option>
+            </select>
+             <br>
+             <button id = "add-btn" onclick="addList()">Add</button>
+        </div>
+          
+        <div class="show-list">
+            <h3>Transcation History</h3>
+            <ul id="transcationList">
+                <!-- <li><span id="list"></span><button id="delete" onclick="deleteList()">Delete</button></li> -->
+            </ul>
+             
+        </div>
+        </div>
+    </div>
+    
+ <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+*
+{
+  margin:0;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: hsla(0, 0%, 90%, 0.2);
+}
+#myH1
+{
+    font-size: 2.5em;
+}
+#container
+{
+    border: 5px solid black;
+    border-radius: 70px;
+    margin-top:20px;
+    padding: 20px 40px;
+    background-color:white;
+}
+#time
+{
+    margin-bottom: 15px;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+#btn button
+{
+    font-size: 1.5em;
+    padding: 4px 20px;
+    margin:10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    border:none;
+    cursor:pointer;
+    transition: background-color 0.5s ease;
+}
+#startBtn
+{
+   background-color: hsl(120, 56%, 51%);
+   
+}
+#startBtn:hover
+{
+    background-color: hsl(120, 95%, 35%);
+}
+#stopBtn
+{
+   background-color: hsl(0, 83%, 61%);
+  
+}
+#stopBtn:hover
+{
+    background-color: hsl(0, 76%, 45%);
+}
+#resetBtn
+{
+   background-color: rgb(114, 114, 214);
+  
+}
+#resetBtn:hover
+{
+    background-color: hsl(239, 87%, 55%);
+}
+
